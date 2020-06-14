@@ -67,9 +67,9 @@ Model|Dataset|Setting|Top1(%)
 ## Citation
 If you find this model useful for your resesarch, please use the following BibTeX entry.
 
-    @inproceedings{shiftgcn2020cvpr,  
+    @inproceedings{cheng2020shiftgcn,  
       title     = {Skeleton-Based Action Recognition with Shift Graph Convolutional Network},  
       author    = {Ke Cheng and Yifan Zhang and Xiangyu He and Weihan Chen and Jian Cheng and Hanqing Lu},  
-      booktitle = {CVPR},  
+      booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},  
       year      = {2020},  
     }
