@@ -20,11 +20,11 @@ alpha = [0.6,0.6,0.4,0.4] # same hyperparameter is used for NTU/NTU120/NW-UCLA
 right_num = total_num = right_num_5 = 0
 for i in tqdm(range(len(label[0]))):
     _, l = label[:, i]
-    _, r1 = r1[i]
-    _, r2 = r2[i]
-    _, r3 = r3[i]
-    _, r4 = r4[i]
-    r = r1*alpha[0] + r2 * alpha[1] + r3*alpha[2] + r4 * alpha[3]
+    _, r11 = r1[i]
+    _, r22 = r2[i]
+    _, r33 = r3[i]
+    _, r44 = r4[i]
+    r = r11*alpha[0] + r22 * alpha[1] + r33*alpha[2] + r44 * alpha[3]
     rank_5 = r.argsort()[-5:]
     right_num_5 += int(int(l) in rank_5)
     r = np.argmax(r)
