@@ -65,7 +65,7 @@ Model|Dataset|Setting|Top1(%)
 
      
 ## Citation
-If you find this model useful for your resesarch, please use the following BibTeX entry.
+If you find this model useful for your research, please use the following BibTeX entry.
 
     @inproceedings{cheng2020shiftgcn,  
       title     = {Skeleton-Based Action Recognition with Shift Graph Convolutional Network},  
