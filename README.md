@@ -1,6 +1,8 @@
 # Shift-GCN
 The implementation for "[Skeleton-Based Action Recognition with Shift Graph Convolutional Network](https://openaccess.thecvf.com/content_CVPR_2020/papers/Cheng_Skeleton-Based_Action_Recognition_With_Shift_Graph_Convolutional_Network_CVPR_2020_paper.pdf)" (CVPR2020 oral). Shift-GCN is a lightweight skeleton-based action recognition model, which exceeds state-of-the-art methods with 10x less FLOPs.
 
+![image](https://github.com/kchengiva/Shift-GCN/blob/master/flops_accuracy.png)
+
 ## Prerequisite
 
  - PyTorch 0.4.1
