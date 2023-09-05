@@ -16,6 +16,7 @@ class ShiftFunction(Function):
         else:
             ypos = ypos + 0.5
             # ypos = ypos + 0.5
+        input = input.contiguous()
         output = shift_cuda.forward(input,xpos,ypos,stride)
         ctx.save_for_backward(input, output, xpos, ypos)
         ctx.stride = stride
